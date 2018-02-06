@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Insert title here</title>
+</head>
+
+<body>
+
+	<!-- 
+	<script type="text/javascript">
+		var var1 = "HI";
+		alert(typeof var1);
+
+		var var2 = 123;
+		alert(typeof var2);
+
+		// 주석
+
+		/* 주석 */
+
+	</script>
+-->
+	<!--
+	<script type="text/javascript">
+	
+		var name = "HI";
+		
+		function hi(){
+			var name = "BYE";
+			console.log(name);
+		}
+		
+		hi();
+	
+		for(var i = 2; i < 10; i++){
+			for(var j = 1; j < 10; j++){
+				document.write( i + "*" + j + "=" + i*j);
+				document.write(" ");
+			}
+			document.write("<br>");
+		}
+		
+	</script>
+-->
+
+	<script type="text/javascript">
+		function company() {
+			console.log("HI");
+		}
+
+		company();
+
+		var company = function() {
+			console.log("BYE");
+		}
+
+		company();
+	</script>
+
+	<script type="text/javascript">
+		var array = [ 273, "String", true, function() {
+		}, {}, [ 273, 103 ] ];
+		console.log(array);
+		//	alert(array);
+
+		console.log(array[1]);
+		//	alert(array[1]);
+	</script>
+
+	<script type="text/javascript">
+		var guestbookVo = {};
+		guestbookVo.no = 3;
+		console.log(guestbookVo.no);
+
+		var guestbookVo = {
+			no : 1,
+			name : "황일영",
+			password : "1234",
+			content : "안녕하세요 첫번째 방문"
+		};
+
+		console.log(guestbookVo.content);
+	</script>
+
+</body>
+</html>
